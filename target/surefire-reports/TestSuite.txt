@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.766 sec <<< FAILURE! - in TestSuite
+getPostById(com.vin.vinapi.PostTests)  Time elapsed: 0.152 sec  <<< FAILURE!
+java.lang.AssertionError: Returned post of different ID expected [1] but found [2]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at com.vin.vinapi.PostTests.getPostById(PostTests.java:25)
+
+getPostById(com.vin.vinapi.PostTests)  Time elapsed: 0.113 sec  <<< FAILURE!
+java.lang.AssertionError: Returned post of different ID expected [1] but found [2]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at com.vin.vinapi.PostTests.getPostById(PostTests.java:25)
+

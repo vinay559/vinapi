@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestAll]">
+  <test name="post(failed)">
+    <classes>
+      <class name="com.vin.vinapi.PostTests">
+        <methods>
+          <include name="getPostById"/>
+          <include name="getAllPosts"/>
+        </methods>
+      </class> <!-- com.vin.vinapi.PostTests -->
+    </classes>
+  </test> <!-- post(failed) -->
+  <test name="user(failed)">
+    <classes>
+      <class name="com.vin.vinapi.UserTests">
+        <methods>
+          <include name="getAllUsers"/>
+          <include name="getUserById"/>
+        </methods>
+      </class> <!-- com.vin.vinapi.UserTests -->
+    </classes>
+  </test> <!-- user(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

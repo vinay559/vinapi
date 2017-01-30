@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="vinSuite" verbose="1">
+	<listeners>
+        <listener class-name="com.vin.extras.RetryListener"/>
+ 	 </listeners>
+	<test name="vin test cases">
+		<classes>
+			<class name="com.vin.vinapi.UserTests" /> 
+			  <class name="com.vin.vinapi.PostTests" /> 
+		</classes>
+	</test>
+</suite>
+<!--
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+
+	<test name="post">
+		<classes>
+			<class name="com.vin.vinapi.Tests1" />
+		</classes>
+	</test>
+
+	<test name="user">
+		<classes>
+			<class name="com.vin.vinapi.Tests2" />
+		</classes>
+	</test>
+
+</suite>
+-->

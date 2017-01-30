@@ -1,0 +1,13 @@
+com/vin/httpcore/HttpRequests.class
+com/vin/pojos/Posts.class
+com/vin/pojos/Users$Posts.class
+com/vin/pojos/Users.class
+com/vin/pojos/Geo.class
+com/vin/pojos/Post.class
+com/vin/httpcore/HttpsTrustManager.class
+com/vin/pojos/Company.class
+com/vin/pojos/Address.class
+com/vin/helpers/PostHelper.class
+com/vin/pojos/User.class
+com/vin/helpers/BaseHelper.class
+com/vin/helpers/UserHelper.class
